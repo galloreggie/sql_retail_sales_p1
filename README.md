@@ -3,7 +3,7 @@
 CREATE DATABASE sql_project_p2;
 
 **Create Table**:
-'''sql
+```sql
 CREATE TABLE retail_sales
 		(
 			transactions_id	INT PRIMARY KEY,
@@ -18,7 +18,7 @@ CREATE TABLE retail_sales
 			cogs	FLOAT,
 			total_sale FLOAT,
 		);
-'''
+```
 		
 --select all
 SELECT * FROM retail_sales;
