@@ -2,7 +2,7 @@
 --SQL Retail Sales Analysis - p1
 CREATE DATABASE sql_project_p2;
 
---Create Table
+**Create Table**:
 '''sql
 CREATE TABLE retail_sales
 		(
