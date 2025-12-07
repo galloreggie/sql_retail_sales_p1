@@ -36,15 +36,21 @@ CREATE TABLE retail_sales
 			total_sale FLOAT,
 		);
 ```
-		
---select all
-SELECT * FROM retail_sales;
+### Data Exploration
 
---verify count
+**select all**
+```sql
+SELECT * FROM retail_sales;
+```
+
+**verify count**
+```sql
 SELECT COUNT (*)
 FROM retail_sales
+```
 
---verify null rows
+**verify null rows**
+```sql
 SELECT * FROM retail_sales
 WHERE 
 	transactions_id IS NULL
@@ -62,8 +68,10 @@ WHERE
 	quantiy IS NULL
 	OR 
 	total_sale IS NULL;
+```
 	
---delete null rows 
+**delete null rows**
+```sql
 DELETE FROM retail_sales
 WHERE 
 	transactions_id IS NULL
@@ -81,6 +89,7 @@ WHERE
 	quantiy IS NULL
 	OR 
 	total_sale IS NULL;
+```sql
 
 --Data Exploration
 
